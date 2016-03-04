@@ -1,9 +1,11 @@
 package qf.com.githup;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+    private TextView textView;
     /**
      * 耿伟
      * @param savedInstanceState
@@ -12,8 +14,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //啊舒服撒
         //我是傅晴望
         //耿伟
-        //啊舒服撒
+        textView= (TextView) findViewById(R.id.tv);
     }
 }
