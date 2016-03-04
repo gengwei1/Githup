@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //啊舒服撒
-        //我是傅晴望
+       //周末去看花海。如何？？？
         //耿伟
         textView= (TextView) findViewById(R.id.tv);
     }
